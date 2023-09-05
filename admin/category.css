@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Search Form Styles */
+.search-form {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Error Message Styles */
+.error-msg {
+    color: #f00;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Add Category Link Styles */
+.add-category-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.add-category-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Table Styles */
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.category-table th, .category-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.category-table th {
+    background-color: #f2f2f2;
+}
+
+/* Pagination Links Styles */
+.pagination-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+/* Confirmation Image Styles */
+.category-table a img {
+    vertical-align: middle;
+}
+
+/* SQL Query Info Styles */
+.sql-query-info {
+    margin-top: 10px;
+    text-align: center;
+    color: #777;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+    color: #fff;
+}

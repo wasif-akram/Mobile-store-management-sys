@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.delete {
+  color: red;
+}
+
+.edit {
+  color: blue;
+}
+
+.table-responsive {
+  max-width: 1000px;
+  margin: 0 auto;
+}
