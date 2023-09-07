@@ -1,0 +1,1 @@
+In Mobile Store/Shop Management System Project we use PHP and MySQL databases. This is the project which keeps records of the inventory products, reviewer details, Order details. The Mobile Store/Shop Management System has two modules i.e. User and Admin.
