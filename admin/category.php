@@ -50,10 +50,6 @@ $sql = "select * from `category` $where LIMIT $start,$limit";
 $res = mysqli_query($con, $sql) or die(mysqli_error($con));
 ?>
 
-<div class="sql-query-info">
-    SQL Query: <?php echo $sql; ?>
-</div>
-
 <?php
 if (isset($_REQUEST['msg'])) {
     echo "<div class='error-msg'>$_REQUEST[msg]</div>";
