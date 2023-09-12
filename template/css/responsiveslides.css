@@ -1,0 +1,39 @@
+body{
+  background-color: #cb9f9f;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #FF5733; /* Add border style and color */
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+ 	display: block;
+	height: auto;
+	float: left;
+	border: 1px solid #000; /* Change border style and color */
+	width: 100%;
+}
+
+.rslides img:hover {
+  border: 2px solid #3b045c; /* Change border color on hover */
+  cursor: pointer; /* Add pointer cursor on hover */
+}

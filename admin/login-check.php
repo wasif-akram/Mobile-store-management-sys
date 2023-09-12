@@ -7,9 +7,9 @@ $sql = "select * from `admin` where `email`='$em' and `pass`='$pwd'";
 $res = mysqli_query($con, $sql) or die("error");
 $tot = mysqli_num_rows($res);
 
-if($tot == 1){
-	$row = mysqli_fetch_assoc($res);
-	$_SESSION['active_id'] = $row['id'];
+if($tot == 1){                                            //statement checking if exactly one row was returned from the query
+	$row = mysqli_fetch_assoc($res);					//if this condition is true, it means that a user with the provided email 
+	$_SESSION['active_id'] = $row['id'];				//and password combination was found.
 	header("location:home.php");
 }
 else{

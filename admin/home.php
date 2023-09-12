@@ -6,7 +6,7 @@ require("includes/nav.php");
 <!-- Begin Body Part -->
 <div class="body-part">
     <?php
-    if (isset($_GET['page'])) {
+    if (isset($_GET['page'])) { // which page is requested assign in $page variable by isset function
         $page = $_GET['page'];
 
         switch ($page) {
